@@ -33,12 +33,6 @@ int SPEED_POT  = A3;
 int ULTRASONIC = 6;
 int PIEZO      = 9;
 
-// New Pins
-/*
-int JOYSTICK = A0;
-int SPEED_POT = A2;
-*/
-
 // Debug Over Serial - Requires a FTDI cable
 boolean DEBUG = false;
 
@@ -49,6 +43,7 @@ Servo motor2;
 Servo servo;
 
 void setup() {
+  // set PIN directions, attach motors/servo
   pinMode(JOYSTICK_X, INPUT);
   pinMode(JOYSTICK_Y, INPUT);
   motor1.attach(MOTOR_1);
