@@ -23,6 +23,8 @@ Your board should be setup and ready to go.
 
 
 ## TODO ##
+1. Test code using 1 joystick instead of 2.
+2. Update code to utilize 2 ultrasonic sensors.
 
 
 ## Bugs ##
